@@ -1,0 +1,92 @@
+/* Estilos globales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    width: 400px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para el botón Ejercicio 1 */
+.button-ejercicio1 {
+    padding: 15px;
+    margin-top: 20px;
+    background-color: #b00eb0; /* Color de fondo del botón Ejercicio 1 */
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 0px; /* Bordes cuadrados */
+    width: 200px; /* Ancho fijo para los botones */
+    height: 200px;/* Altura fija para los botones */
+    transition: background-color 0.3s ease; /* Suavizar la transición al pasar el cursor */
+}
+
+
+
+/* Estilos para el botón Ejercicio 2 */
+.button-ejercicio2 {
+    padding: 15px;
+    margin-top: 20px;
+    background-color: #8bc820; /* Color de fondo del botón Ejercicio 2 */
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 0px; /* Bordes cuadrados */
+    width: 200px; /* Ancho fijo para los botones */
+    height: 200px;/* Altura fija para los botones */
+    transition: background-color 0.3s ease; /* Suavizar la transición al pasar el cursor */
+}
+
+button {
+    padding: 12px;
+    margin-top: 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+/* Estilos para los inputs */
+input[type="text"], input[type="number"], input[type="password"] {
+    width: 95%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+/* Estilos para los mensajes de bienvenida */
+h2 {
+    color: #333;
+    font-size: 18px;
+}
+
+/* Estilos para los enlaces */
+a {
+    text-decoration: none;
+    color: #00446a;
+}
+
+a:hover {
+    color: #4C007d;
+}
+}
